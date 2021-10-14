@@ -9,5 +9,51 @@
 body {
     font-family: Raleway, sans-serif;
     font-weight: 300;
-    color: #193D61,
+    color:  #1A3E61;
+}
+
+/* headings and loggo */
+
+h1, h2 {
+     font-family: "PT serif", sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 5px;
+     color: #183D61;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+
+}
+
+/* navigation links */
+
+#menu { 
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+#menu, #logo {
+    line-height: 80px;
+}
+
+#menu li {
+    float: right;
+    list-style: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+#menu a:hover {
+    border-bottom: 1.5px solid #183D61;
+}
+
+.yogi{
+    border-bottom: 1.5px solid #183D61;
 }
