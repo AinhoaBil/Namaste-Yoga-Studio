@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=PT+Serif&family=Raleway&family=Roboto&display=swap');
 
+body {
+margin: 0;
+padding: 0;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+font-family: Raleway, sans-serif;
+font-weight: 300;
+color: #1A3E61;
+}
+/*
 * {
     margin: 0;
     padding: 0;
@@ -9,10 +20,10 @@
 body {
     font-family: Raleway, sans-serif;
     font-weight: 300;
-    color:  #1A3E61;
+    color: #1A3E61;
 }
-
-/* headings and loggo */
+*/
+/* headings and logo */
 
 h1, h2 {
      font-family: "PT serif", sans-serif;
@@ -42,6 +53,7 @@ h1, h2 {
     float: right;
     list-style: none;
     margin-right: 30px;
+    color: #1A3E61;
 }
 
 #menu a {
@@ -67,26 +79,79 @@ h1, h2 {
 }
 
 
+/* padding contact */
+#contact {
+    margin-bottom: 0px;
+}
+
+.text-center {
+    text-align: center;
+    text-decoration: 120% bold;
+}
+
+
+.contact-boxes-container {
+    width: 66%;
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+
+.contact-box-left {
+    width: 250px;
+    margin-top: -20px;
+	float: left;
+}
+
+.contact-box-right {
+    width: 250px;
+    text-align: right;
+    margin-top: 0;
+	float: right;
+}
+
+.spacer {
+    clear: both;
+}
+
+.contact-box-center {
+    width: 250px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
 
 /* footer */
 
 footer {
-    height: 150px;
+    height: 100px;
+    margin-top: 0%;
+    color: #1A3E61;
 }
 
 .social-networks {
     text-align: center;
+    color: #1A3E61;
 
 }
 
 .social-networks>li {
     display: inline;
+    color: #1A3E61;
 }
 
-.social-networks i {
+.social-networks li {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
     color: #183D61;
 
+}
+
+.signature {
+    bottom: 100px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
