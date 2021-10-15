@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=PT+Serif&family=Raleway&family=Roboto&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -49,11 +49,19 @@ h1, h2 {
     color: inherit;
 
 }
-
+  
 #menu a:hover {
     border-bottom: 1.5px solid #183D61;
 }
 
 .yogi{
     border-bottom: 1.5px solid #183D61;
+}
+
+#cover-image2 {
+    height: 600px;
+    width: 100%;
+    background-image: url("../images/cover-image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
