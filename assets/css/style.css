@@ -65,3 +65,28 @@ h1, h2 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #183D61;
+
+}
