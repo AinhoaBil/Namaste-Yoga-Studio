@@ -31,12 +31,25 @@ h1, h2 {
      letter-spacing: 5px;
      color: #183D61;
 }
+h3 {
+    font-family: "PT serif", sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
 
 #logo {
     float: left;
-    font-size: 300%;
+    font-size: 250%;
 
 }
+
+/* why us section */
+
+.why-us {
+    text-align: center;
+} 
 
 /* navigation links */
 
