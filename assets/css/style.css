@@ -180,3 +180,15 @@ footer {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width:950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
