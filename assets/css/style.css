@@ -3,7 +3,7 @@
 body {
 margin: 0;
 padding: 0;
-min-height: 100vh;
+min-height: 2;
 display: flex;
 flex-direction: column;
 font-family: Raleway, sans-serif;
@@ -16,7 +16,6 @@ color: #1A3E61;
     padding: 0;
     border: none;
 }
-
 body {
     font-family: Raleway, sans-serif;
     font-weight: 300;
@@ -31,6 +30,11 @@ h1, h2 {
      letter-spacing: 5px;
      color: #183D61;
 }
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
 h3 {
     font-family: "PT serif", sans-serif;
     font-size: 150%;
@@ -42,6 +46,7 @@ h3 {
 #logo {
     float: left;
     font-size: 250%;
+    margin-left: 15px;
 
 }
 
@@ -89,6 +94,28 @@ h3 {
     background-image: url("../images/cover-image2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.minutes {
+    list-style-position: inside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 110%;
+    font-weight: bold;
+    line-height: 1.6;
+
+}
+
+.list-benefits {
+    text-align: center;
+    list-style-position: inside;
+    
+}
+
+ol > li >a {
+    font-size: 120%;
+    font-weight: bold;
 }
 
 /* gallery */
@@ -146,6 +173,62 @@ h3 {
 }
 
 
+/* Form */
+
+.form-section {
+    clear: left;
+    background-image: url("../images/cover-image.jpg");
+    background-image: red;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color:rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fff;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #418A9F;
+    border-radius: 2px;
+} 
+
+.text-input:hover {
+    border-color: #90DEBF;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #418A9F;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #76F1A0;
+    color: #183D61;
+}
+
 
 /* footer */
 
@@ -180,7 +263,6 @@ footer {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
 
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width:950px) {
