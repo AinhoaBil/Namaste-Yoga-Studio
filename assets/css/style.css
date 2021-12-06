@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=PT+Serif&family=Raleway&family=Roboto&display=swap');
 
 body {
-margin: 0;
-padding: 0;
-min-height: 2;
-display: flex;
-flex-direction: column;
-font-family: Raleway, sans-serif;
-font-weight: 300;
-color: #1A3E61;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    color: #1A3E61;
 }
+
 /*
 * {
     margin: 0;
@@ -24,17 +25,19 @@ body {
 */
 /* headings and logo */
 
-h1, h2 {
-     font-family: "PT serif", sans-serif;
-     text-transform: uppercase;
-     letter-spacing: 5px;
-     color: #183D61;
+h1,
+h2 {
+    font-family: "PT serif", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #183D61;
 }
 
 h2 {
     font-size: 40px;
     text-align: center;
 }
+
 h3 {
     font-family: "PT serif", sans-serif;
     font-size: 150%;
@@ -54,16 +57,17 @@ h3 {
 
 .why-us {
     text-align: center;
-} 
+}
 
 /* navigation links */
 
-#menu { 
+#menu {
     font-size: 120%;
     letter-spacing: 2px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 80px;
 }
 
@@ -79,12 +83,12 @@ h3 {
     color: inherit;
 
 }
-  
+
 #menu a:hover {
     border-bottom: 1.5px solid #183D61;
 }
 
-.yogi{
+.yogi {
     border-bottom: 1.5px solid #183D61;
 }
 
@@ -110,10 +114,10 @@ h3 {
 .list-benefits {
     text-align: center;
     list-style-position: inside;
-    
+
 }
 
-ol > li >a {
+ol>li>a {
     font-size: 120%;
     font-weight: bold;
 }
@@ -127,7 +131,7 @@ ol > li >a {
     column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
@@ -138,7 +142,7 @@ ol > li >a {
 
 .text-center {
     text-align: center;
-    text-decoration: 120% bold;
+    font-weight: bold;
 }
 
 
@@ -151,14 +155,14 @@ ol > li >a {
 .contact-box-left {
     width: 250px;
     margin-top: -20px;
-	float: left;
+    float: left;
 }
 
 .contact-box-right {
     width: 250px;
     text-align: right;
     margin-top: 0;
-	float: right;
+    float: right;
 }
 
 .spacer {
@@ -178,7 +182,6 @@ ol > li >a {
 .form-section {
     clear: left;
     background-image: url("../images/cover-image.jpg");
-    background-image: red;
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -187,7 +190,7 @@ ol > li >a {
 .signup-form {
     margin: 150px 10% 0 0;
     color: #fff;
-    background-color:rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     position: absolute;
     left: 10%;
@@ -207,7 +210,7 @@ ol > li >a {
     margin: 5px 0 20px 0;
     border: 1px solid #418A9F;
     border-radius: 2px;
-} 
+}
 
 .text-input:hover {
     border-color: #90DEBF;
@@ -235,26 +238,25 @@ ol > li >a {
 footer {
     height: 100px;
     margin-top: 0%;
-    color: #1A3E61;
+    color: #183D61 !important;
 }
 
 .social-networks {
     text-align: center;
-    color: #1A3E61;
-
 }
 
 .social-networks>li {
     display: inline;
-    color: #1A3E61;
+}
+
+.social-networks i {
+    color: #183D61;
 }
 
 .social-networks li {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #183D61;
-
 }
 
 .signature {
@@ -274,5 +276,5 @@ footer {
         line-height: 25px;
     }
 
-    
+
 }
