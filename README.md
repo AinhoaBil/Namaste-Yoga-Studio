@@ -2,6 +2,8 @@
 
 Hello! This is my first Milestone Project with [Code Institute!](https://codeinstitute.net/)
 
+Please visit my first new website by clicking right [HERE](https://ainhoabil.github.io/Namaste-Yoga-Studio)!
+
 ## Built with
 
 HTML5
